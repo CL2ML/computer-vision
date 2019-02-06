@@ -15,7 +15,7 @@ Python program file: yolo_pic.py
 The program is executed by command line arguments:
 
 ```bash
-python yolo_pic.py --image images/traffic_jam.jpg --yolo yolo-coco'
+python yolo_pic.py --image images/traffic_jam.jpg --yolo yolo-coco
 
 python yolo_pic.py --image images/airport_field.jpg --yolo yolo-coco
 
