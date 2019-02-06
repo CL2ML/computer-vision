@@ -1,18 +1,18 @@
-# computer-vision
+# Computer Vision
 
-## Project: OpenCV_ObjectDetection_YOLO_Pics
+## Project: ObjectDetection on images with OpenCV using YOLOv3
 
-Goal: Detect objects on pictures
+**Goal**: Detect objects on pictures
 
-Description: OpenCV implementation for object detection on images
+**Description**: OpenCV implementation for object detection on images
 
-Model: YOLOv3 trained on COCO data set by Darknet in 2018
+**Model**: YOLOv3 trained on COCO data set by Darknet in 2018
 
-Code source: Code based on work by Adrian Reosebrock (www.pyimagesearch.com)
+**Code source**: The code is based on work by Adrian Reosebrock (www.pyimagesearch.com)
 
-Python program file: yolo_pic.py
+**Python program file**: yolo_pic.py
 
-The program is executed by command line arguments:
+**The program is executed by command line arguments**:
 
 ```bash
 python yolo_pic.py --image images/traffic_jam.jpg --yolo yolo-coco
@@ -28,6 +28,8 @@ Two file directories are needed within your working directory:
 
 * images/<image>
 * yolo-coco/
-** yolov3.weights
-** yolov3.cfg
-** coco.names
+  * coco.names
+  * yolov3.cfg
+  * yolov3.weights
+
+
