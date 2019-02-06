@@ -14,10 +14,12 @@ Python program file: yolo_pic.py
 
 The program is executed by command line arguments:
 
-'python yolo_pic.py --image images/traffic_jam.jpg --yolo yolo-coco'
+```python
+python yolo_pic.py --image images/traffic_jam.jpg --yolo yolo-coco'
 
 python yolo_pic.py --image images/airport_field.jpg --yolo yolo-coco
 
 python yolo_pic.py --image images/bike_car.jpg --yolo yolo-coco --confidence 0.3
 
 python yolo_pic.py --image images/agr_field_1.jpg --yolo yolo-coco
+```
