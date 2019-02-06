@@ -23,3 +23,11 @@ python yolo_pic.py --image images/bike_car.jpg --yolo yolo-coco --confidence 0.3
 
 python yolo_pic.py --image images/agr_field_1.jpg --yolo yolo-coco
 ```
+
+Two file directories are needed within your working directory:
+
+* images/<image>
+* yolo-coco/
+** yolov3.weights
+** yolov3.cfg
+** coco.names
